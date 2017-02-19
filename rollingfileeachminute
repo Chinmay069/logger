@@ -12,6 +12,8 @@
       <param name="ConversionPattern" value="%d{ddMMMyyyy HH:mm:ss,SSS}^[%X{l4j_mdc_key}]^[%c{1}]^ %-5p %m%n" />
    </layout>
 </appender>
+
+<!-- This is root level -->
 <root>
    <level value="info" />
    <appender-ref ref="ASYNC" />
